@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isspace.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ismailalashqar <ismailalashqar@student.    +#+  +:+       +#+        */
+/*   By: ialashqa <ialashqa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/18 17:56:37 by ismailalash       #+#    #+#             */
-/*   Updated: 2024/09/18 17:57:38 by ismailalash      ###   ########.fr       */
+/*   Updated: 2024/09/20 20:11:38 by ialashqa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isspace(int c)
+int	ft_isspace(int c)
 {
-    if (c == 32 || c == '\t')
-        return (1);
-    return (0);
+	if (c == 32 || c == '\t')
+		return (1);
+	return (0);
 }

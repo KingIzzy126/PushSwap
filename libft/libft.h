@@ -6,7 +6,7 @@
 /*   By: ismailalashqar <ismailalashqar@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/30 16:40:01 by ialashqa          #+#    #+#             */
-/*   Updated: 2024/09/18 17:58:02 by ismailalash      ###   ########.fr       */
+/*   Updated: 2024/09/20 19:14:32 by ismailalash      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strtrim(char const *s1, char const *set);
 char	**ft_split(char const *s, char c);
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
-char	*ft_strdup(const char *s1);
+char	*ft_strdup(const char *s);
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 void	*ft_memset(void *b, int c, size_t len);
